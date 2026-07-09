@@ -160,3 +160,271 @@
 2026-07-09 07:38:38,701 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1: 422
 2026-07-09 07:38:38,871 | INFO | Execution time of test_update_repo is: 0.81 seconds
 2026-07-09 07:38:38,875 | INFO | Execution time of test_delete_repo is: 0.00 seconds
+2026-07-09 08:53:54,925 | INFO | Request: GET https://api.github.com/user 
+2026-07-09 08:53:55,373 | INFO | Response of https://api.github.com/user: 200
+2026-07-09 08:53:55,377 | INFO | Request: POST https://api.github.com/user/repos 
+2026-07-09 08:53:56,134 | INFO | Response of https://api.github.com/user/repos: 422
+2026-07-09 08:53:56,285 | INFO | Execution time of test_create_repo is: 0.91 seconds
+2026-07-09 08:53:56,289 | INFO | Request: GET https://api.github.com/repos/Narsimha91/pytest-api-demo-1 
+2026-07-09 08:53:56,867 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1: 200
+2026-07-09 08:53:56,871 | INFO | Execution time of test_read_repo is: 0.58 seconds
+2026-07-09 08:53:56,874 | INFO | Request: PATCH https://api.github.com/repos/Narsimha91/pytest-api-demo-2 
+2026-07-09 08:53:57,359 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-2: 200
+2026-07-09 08:53:57,362 | INFO | Execution time of test_update_repo is: 0.49 seconds
+2026-07-09 08:53:57,364 | INFO | Request: DELETE https://api.github.com/repos/Narsimha91/pytest-api-demo-2 
+2026-07-09 08:53:57,974 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-2: 204
+2026-07-09 08:53:57,977 | INFO | Execution time of test_delete_repo is: 0.61 seconds
+2026-07-09 08:54:55,982 | INFO | Request: GET https://api.github.com/user 
+2026-07-09 08:54:56,470 | INFO | Response of https://api.github.com/user: 200
+2026-07-09 08:54:56,474 | INFO | Request: POST https://api.github.com/user/repos 
+2026-07-09 08:54:58,526 | INFO | Response of https://api.github.com/user/repos: 201
+2026-07-09 08:54:58,531 | INFO | Execution time of test_create_repo is: 2.06 seconds
+2026-07-09 08:54:58,535 | INFO | Request: GET https://api.github.com/repos/Narsimha91/pytest-api-demo-1 
+2026-07-09 08:54:59,006 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1: 200
+2026-07-09 08:54:59,012 | INFO | Execution time of test_read_repo is: 0.48 seconds
+2026-07-09 08:54:59,014 | INFO | Request: PATCH https://api.github.com/repos/Narsimha91/pytest-api-demo-2 
+2026-07-09 08:54:59,826 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-2: 200
+2026-07-09 08:54:59,832 | INFO | Execution time of test_update_repo is: 0.82 seconds
+2026-07-09 08:54:59,837 | INFO | Execution time of test_delete_repo is: 0.00 seconds
+2026-07-09 08:55:36,532 | INFO | Request: GET https://api.github.com/user 
+2026-07-09 08:55:36,996 | INFO | Response of https://api.github.com/user: 200
+2026-07-09 08:55:37,000 | INFO | Execution time of test_create_repo is: 0.00 seconds
+2026-07-09 08:55:37,002 | INFO | Request: GET https://api.github.com/repos/Narsimha91/pytest-api-demo-1 
+2026-07-09 08:55:37,534 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1: 200
+2026-07-09 08:55:37,538 | INFO | Execution time of test_read_repo is: 0.54 seconds
+2026-07-09 08:55:37,541 | INFO | Request: PATCH https://api.github.com/repos/Narsimha91/pytest-api-demo-2 
+2026-07-09 08:55:38,027 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-2: 200
+2026-07-09 08:55:38,031 | INFO | Execution time of test_update_repo is: 0.49 seconds
+2026-07-09 08:55:38,035 | INFO | Execution time of test_delete_repo is: 0.00 seconds
+2026-07-09 08:55:38,036 | INFO | Request: GET https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/ref/heads/main 
+2026-07-09 08:55:38,662 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/ref/heads/main: 200
+2026-07-09 08:55:38,667 | INFO | Execution time of test_get_last_commit is: 0.63 seconds
+2026-07-09 09:01:39,686 | INFO | Request: GET https://api.github.com/user 
+2026-07-09 09:01:40,393 | INFO | Response of https://api.github.com/user: 200
+2026-07-09 09:01:40,398 | INFO | Execution time of test_create_repo is: 0.00 seconds
+2026-07-09 09:01:40,400 | INFO | Request: GET https://api.github.com/repos/Narsimha91/pytest-api-demo-1 
+2026-07-09 09:01:41,023 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1: 200
+2026-07-09 09:01:41,027 | INFO | Execution time of test_read_repo is: 0.63 seconds
+2026-07-09 09:01:41,029 | INFO | Request: PATCH https://api.github.com/repos/Narsimha91/pytest-api-demo-2 
+2026-07-09 09:01:42,083 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-2: 200
+2026-07-09 09:01:42,086 | INFO | Execution time of test_update_repo is: 1.06 seconds
+2026-07-09 09:01:42,091 | INFO | Execution time of test_delete_repo is: 0.00 seconds
+2026-07-09 09:01:42,093 | INFO | Request: GET https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/ref/heads/main 
+2026-07-09 09:01:42,577 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/ref/heads/main: 200
+2026-07-09 09:01:42,583 | INFO | Execution time of test_get_last_commit is: 0.49 seconds
+2026-07-09 09:15:12,806 | INFO | Request: GET https://api.github.com/user 
+2026-07-09 09:15:13,380 | INFO | Response of https://api.github.com/user: 200
+2026-07-09 09:15:13,384 | INFO | Execution time of test_create_repo is: 0.00 seconds
+2026-07-09 09:15:13,386 | INFO | Request: GET https://api.github.com/repos/Narsimha91/pytest-api-demo-1 
+2026-07-09 09:15:13,887 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1: 200
+2026-07-09 09:15:13,892 | INFO | Execution time of test_read_repo is: 0.51 seconds
+2026-07-09 09:15:13,894 | INFO | Request: PATCH https://api.github.com/repos/Narsimha91/pytest-api-demo-2 
+2026-07-09 09:15:14,377 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-2: 200
+2026-07-09 09:15:14,381 | INFO | Execution time of test_update_repo is: 0.49 seconds
+2026-07-09 09:15:14,384 | INFO | Execution time of test_delete_repo is: 0.00 seconds
+2026-07-09 09:15:14,385 | INFO | Request: GET https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/ref/heads/main 
+2026-07-09 09:15:14,953 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/ref/heads/main: 200
+2026-07-09 09:15:14,959 | INFO | Execution time of test_get_last_commit is: 0.57 seconds
+2026-07-09 09:15:14,962 | INFO | Request: POST https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs 
+2026-07-09 09:15:15,320 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs: 422
+2026-07-09 09:15:15,475 | INFO | Execution time of test_create_branch is: 0.51 seconds
+2026-07-09 09:15:43,710 | INFO | Request: GET https://api.github.com/user 
+2026-07-09 09:15:44,138 | INFO | Response of https://api.github.com/user: 200
+2026-07-09 09:15:44,143 | INFO | Execution time of test_create_repo is: 0.00 seconds
+2026-07-09 09:15:44,145 | INFO | Request: GET https://api.github.com/repos/Narsimha91/pytest-api-demo-1 
+2026-07-09 09:15:44,608 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1: 200
+2026-07-09 09:15:44,612 | INFO | Execution time of test_read_repo is: 0.47 seconds
+2026-07-09 09:15:44,615 | INFO | Request: PATCH https://api.github.com/repos/Narsimha91/pytest-api-demo-2 
+2026-07-09 09:15:45,119 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-2: 200
+2026-07-09 09:15:45,125 | INFO | Execution time of test_update_repo is: 0.51 seconds
+2026-07-09 09:15:45,129 | INFO | Execution time of test_delete_repo is: 0.00 seconds
+2026-07-09 09:15:45,131 | INFO | Request: GET https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/ref/heads/main 
+2026-07-09 09:15:45,633 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/ref/heads/main: 200
+2026-07-09 09:15:45,639 | INFO | Execution time of test_get_last_commit is: 0.51 seconds
+2026-07-09 09:15:45,641 | INFO | Request: POST https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs 
+2026-07-09 09:15:46,428 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs: 201
+2026-07-09 09:15:46,433 | INFO | Execution time of test_create_branch is: 0.79 seconds
+2026-07-09 09:20:04,260 | INFO | Request: GET https://api.github.com/user 
+2026-07-09 09:20:05,633 | INFO | Response of https://api.github.com/user: 200
+2026-07-09 09:20:05,640 | INFO | Execution time of test_create_repo is: 0.00 seconds
+2026-07-09 09:20:05,642 | INFO | Request: GET https://api.github.com/repos/Narsimha91/pytest-api-demo-1 
+2026-07-09 09:20:07,676 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1: 200
+2026-07-09 09:20:07,685 | INFO | Execution time of test_read_repo is: 2.04 seconds
+2026-07-09 09:20:07,687 | INFO | Request: PATCH https://api.github.com/repos/Narsimha91/pytest-api-demo-2 
+2026-07-09 09:20:08,265 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-2: 200
+2026-07-09 09:20:08,269 | INFO | Execution time of test_update_repo is: 0.58 seconds
+2026-07-09 09:20:08,273 | INFO | Execution time of test_delete_repo is: 0.00 seconds
+2026-07-09 09:20:08,276 | INFO | Request: GET https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/ref/heads/main 
+2026-07-09 09:20:08,895 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/ref/heads/main: 200
+2026-07-09 09:20:08,901 | INFO | Execution time of test_get_last_commit is: 0.63 seconds
+2026-07-09 09:20:08,903 | INFO | Request: POST https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs 
+2026-07-09 09:20:10,234 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs: 422
+2026-07-09 09:20:10,386 | INFO | Execution time of test_create_branch is: 1.48 seconds
+2026-07-09 09:20:10,389 | INFO | Request: GET https://api.github.com/repos/Narsimha91/pytest-api-demo-1/branches 
+2026-07-09 09:20:11,252 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/branches: 200
+2026-07-09 09:20:11,257 | INFO | Execution time of test_get_branches is: 0.87 seconds
+2026-07-09 09:26:22,952 | INFO | Request: GET https://api.github.com/user 
+2026-07-09 09:26:23,482 | INFO | Response of https://api.github.com/user: 200
+2026-07-09 09:26:23,486 | INFO | Request: GET https://api.github.com/repos/Narsimha91/pytest-api-demo-1/branches 
+2026-07-09 09:26:23,960 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/branches: 200
+2026-07-09 09:26:23,963 | INFO | Execution time of test_get_branches is: 0.48 seconds
+2026-07-09 09:26:58,061 | INFO | Request: GET https://api.github.com/user 
+2026-07-09 09:26:58,631 | INFO | Response of https://api.github.com/user: 200
+2026-07-09 09:26:58,638 | INFO | Request: GET https://api.github.com/repos/Narsimha91/pytest-api-demo-1/branches 
+2026-07-09 09:26:59,125 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/branches: 200
+2026-07-09 09:26:59,129 | INFO | Execution time of test_get_branches is: 0.49 seconds
+2026-07-09 09:27:48,311 | INFO | Request: GET https://api.github.com/user 
+2026-07-09 09:27:48,847 | INFO | Response of https://api.github.com/user: 200
+2026-07-09 09:27:48,852 | INFO | Request: GET https://api.github.com/repos/Narsimha91/pytest-api-demo-1/branches 
+2026-07-09 09:27:49,404 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/branches: 200
+2026-07-09 09:27:49,423 | INFO | Execution time of test_get_branches is: 0.57 seconds
+2026-07-09 09:28:53,331 | INFO | Request: GET https://api.github.com/user 
+2026-07-09 09:28:54,012 | INFO | Response of https://api.github.com/user: 200
+2026-07-09 09:28:54,019 | INFO | Execution time of test_create_repo is: 0.00 seconds
+2026-07-09 09:28:54,021 | INFO | Request: GET https://api.github.com/repos/Narsimha91/pytest-api-demo-1 
+2026-07-09 09:28:54,469 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1: 200
+2026-07-09 09:28:54,474 | INFO | Execution time of test_read_repo is: 0.45 seconds
+2026-07-09 09:28:54,477 | INFO | Request: PATCH https://api.github.com/repos/Narsimha91/pytest-api-demo-2 
+2026-07-09 09:28:55,101 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-2: 200
+2026-07-09 09:28:55,108 | INFO | Execution time of test_update_repo is: 0.63 seconds
+2026-07-09 09:28:55,112 | INFO | Execution time of test_delete_repo is: 0.00 seconds
+2026-07-09 09:28:55,113 | INFO | Request: GET https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/ref/heads/main 
+2026-07-09 09:28:55,620 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/ref/heads/main: 200
+2026-07-09 09:28:55,626 | INFO | Execution time of test_get_last_commit is: 0.51 seconds
+2026-07-09 09:28:55,628 | INFO | Request: POST https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs 
+2026-07-09 09:28:56,272 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs: 422
+2026-07-09 09:28:56,431 | INFO | Execution time of test_create_branch is: 0.80 seconds
+2026-07-09 09:28:56,433 | INFO | Request: GET https://api.github.com/repos/Narsimha91/pytest-api-demo-1/branches 
+2026-07-09 09:28:56,878 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/branches: 200
+2026-07-09 09:28:56,886 | INFO | Execution time of test_get_branches is: 0.45 seconds
+2026-07-09 09:32:09,242 | INFO | Request: GET https://api.github.com/user 
+2026-07-09 09:32:09,810 | INFO | Response of https://api.github.com/user: 200
+2026-07-09 09:32:09,814 | INFO | Execution time of test_create_repo is: 0.00 seconds
+2026-07-09 09:32:09,816 | INFO | Request: GET https://api.github.com/repos/Narsimha91/pytest-api-demo-1 
+2026-07-09 09:32:10,314 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1: 200
+2026-07-09 09:32:10,319 | INFO | Execution time of test_read_repo is: 0.50 seconds
+2026-07-09 09:32:10,321 | INFO | Request: PATCH https://api.github.com/repos/Narsimha91/pytest-api-demo-2 
+2026-07-09 09:32:10,863 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-2: 200
+2026-07-09 09:32:10,868 | INFO | Execution time of test_update_repo is: 0.55 seconds
+2026-07-09 09:32:10,871 | INFO | Execution time of test_delete_repo is: 0.00 seconds
+2026-07-09 09:32:10,873 | INFO | Request: GET https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/ref/heads/main 
+2026-07-09 09:32:11,401 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/ref/heads/main: 200
+2026-07-09 09:32:11,405 | INFO | Execution time of test_get_last_commit is: 0.53 seconds
+2026-07-09 09:32:11,408 | INFO | Request: POST https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs 
+2026-07-09 09:32:12,110 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs: 422
+2026-07-09 09:32:12,115 | INFO | Execution time of test_create_branch is: 0.71 seconds
+2026-07-09 09:32:12,118 | INFO | Request: GET https://api.github.com/repos/Narsimha91/pytest-api-demo-1/branches 
+2026-07-09 09:32:12,777 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/branches: 200
+2026-07-09 09:32:12,782 | INFO | Execution time of test_get_branches is: 0.66 seconds
+2026-07-09 09:41:49,115 | INFO | Request: GET https://api.github.com/user 
+2026-07-09 09:41:49,626 | INFO | Response of https://api.github.com/user: 200
+2026-07-09 09:41:49,630 | INFO | Request: GET https://api.github.com/repos/Narsimha91/pytest-api-demo-1/branches/feature-login 
+2026-07-09 09:41:50,079 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/branches/feature-login: 200
+2026-07-09 09:41:50,083 | INFO | Execution time of test_get_branch is: 0.45 seconds
+2026-07-09 10:00:35,275 | INFO | Request: GET https://api.github.com/user 
+2026-07-09 10:00:36,000 | INFO | Response of https://api.github.com/user: 200
+2026-07-09 10:00:36,005 | INFO | Request: POST https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs/heads/feature-login 
+2026-07-09 10:00:36,425 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs/heads/feature-login: 422
+2026-07-09 10:00:36,582 | INFO | Execution time of test_remove_branch is: 0.58 seconds
+2026-07-09 10:01:21,440 | INFO | Request: GET https://api.github.com/user 
+2026-07-09 10:01:21,950 | INFO | Response of https://api.github.com/user: 200
+2026-07-09 10:01:21,954 | INFO | Request: DELETE https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs/heads/feature-login 
+2026-07-09 10:01:22,774 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs/heads/feature-login: 204
+2026-07-09 10:01:22,967 | INFO | Execution time of test_remove_branch is: 1.01 seconds
+2026-07-09 10:02:04,308 | INFO | Request: GET https://api.github.com/user 
+2026-07-09 10:02:04,838 | INFO | Response of https://api.github.com/user: 200
+2026-07-09 10:02:04,842 | INFO | Request: DELETE https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs/heads/feature-login 
+2026-07-09 10:02:05,292 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs/heads/feature-login: 422
+2026-07-09 10:02:05,447 | INFO | Execution time of test_remove_branch is: 0.61 seconds
+2026-07-09 10:02:55,058 | INFO | Request: GET https://api.github.com/user 
+2026-07-09 10:02:55,576 | INFO | Response of https://api.github.com/user: 200
+2026-07-09 10:02:55,581 | INFO | Request: DELETE https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs/heads/feature-login 
+2026-07-09 10:02:56,122 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs/heads/feature-login: 422
+2026-07-09 10:02:56,267 | INFO | Execution time of test_remove_branch is: 0.69 seconds
+2026-07-09 10:03:41,809 | INFO | Request: GET https://api.github.com/user 
+2026-07-09 10:03:42,266 | INFO | Response of https://api.github.com/user: 200
+2026-07-09 10:03:42,269 | INFO | Request: POST https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs 
+2026-07-09 10:03:42,676 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs: 422
+2026-07-09 10:03:42,679 | INFO | Execution time of test_create_branch is: 0.41 seconds
+2026-07-09 10:03:42,681 | INFO | Request: GET https://api.github.com/repos/Narsimha91/pytest-api-demo-1/branches/feature-login 
+2026-07-09 10:03:43,137 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/branches/feature-login: 404
+2026-07-09 10:03:43,293 | INFO | Execution time of test_get_branch is: 0.61 seconds
+2026-07-09 10:03:43,295 | INFO | Request: DELETE https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs/heads/feature-login 
+2026-07-09 10:03:43,801 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs/heads/feature-login: 422
+2026-07-09 10:03:43,808 | INFO | Execution time of test_remove_branch is: 0.51 seconds
+2026-07-09 10:04:58,071 | INFO | Request: GET https://api.github.com/user 
+2026-07-09 10:04:58,732 | INFO | Response of https://api.github.com/user: 200
+2026-07-09 10:04:58,736 | INFO | Request: POST https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs 
+2026-07-09 10:04:59,255 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs: 422
+2026-07-09 10:04:59,259 | INFO | Execution time of test_create_branch is: 0.52 seconds
+2026-07-09 10:04:59,261 | INFO | Request: GET https://api.github.com/repos/Narsimha91/pytest-api-demo-1/branches/feature-login 
+2026-07-09 10:04:59,787 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/branches/feature-login: 404
+2026-07-09 10:04:59,931 | INFO | Execution time of test_get_branch is: 0.67 seconds
+2026-07-09 10:04:59,933 | INFO | Request: DELETE https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs/heads/feature-login 
+2026-07-09 10:05:00,412 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs/heads/feature-login: 422
+2026-07-09 10:05:00,420 | INFO | Execution time of test_remove_branch is: 0.49 seconds
+2026-07-09 10:05:34,493 | INFO | Request: GET https://api.github.com/user 
+2026-07-09 10:05:35,009 | INFO | Response of https://api.github.com/user: 200
+2026-07-09 10:05:35,014 | INFO | Request: GET https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/ref/heads/main 
+2026-07-09 10:05:35,526 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/ref/heads/main: 200
+2026-07-09 10:05:35,533 | INFO | Execution time of test_get_last_commit is: 0.52 seconds
+2026-07-09 10:05:35,536 | INFO | Request: POST https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs 
+2026-07-09 10:05:36,408 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs: 201
+2026-07-09 10:05:36,413 | INFO | Execution time of test_create_branch is: 0.88 seconds
+2026-07-09 10:05:36,415 | INFO | Request: GET https://api.github.com/repos/Narsimha91/pytest-api-demo-1/branches/feature-login 
+2026-07-09 10:05:36,852 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/branches/feature-login: 200
+2026-07-09 10:05:36,857 | INFO | Execution time of test_get_branch is: 0.44 seconds
+2026-07-09 10:05:36,859 | INFO | Request: DELETE https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs/heads/feature-login 
+2026-07-09 10:05:37,643 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs/heads/feature-login: 204
+2026-07-09 10:05:37,647 | INFO | Execution time of test_remove_branch is: 0.79 seconds
+2026-07-09 10:06:16,202 | INFO | Request: GET https://api.github.com/user 
+2026-07-09 10:06:16,788 | INFO | Response of https://api.github.com/user: 200
+2026-07-09 10:06:16,792 | INFO | Request: GET https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/ref/heads/main 
+2026-07-09 10:06:17,710 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/ref/heads/main: 200
+2026-07-09 10:06:17,715 | INFO | Execution time of test_get_last_commit is: 0.92 seconds
+2026-07-09 10:06:17,718 | INFO | Request: POST https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs 
+2026-07-09 10:06:18,456 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs: 201
+2026-07-09 10:06:18,461 | INFO | Execution time of test_create_branch is: 0.74 seconds
+2026-07-09 10:06:18,463 | INFO | Request: GET https://api.github.com/repos/Narsimha91/pytest-api-demo-1/branches/feature-login 
+2026-07-09 10:06:18,945 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/branches/feature-login: 200
+2026-07-09 10:06:18,948 | INFO | Request: POST https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs 
+2026-07-09 10:06:19,697 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs: 422
+2026-07-09 10:06:19,700 | INFO | Execution time of test_get_branch is: 1.24 seconds
+2026-07-09 10:06:19,703 | INFO | Request: DELETE https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs/heads/feature-login 
+2026-07-09 10:06:20,413 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs/heads/feature-login: 204
+2026-07-09 10:06:20,417 | INFO | Execution time of test_remove_branch is: 0.71 seconds
+2026-07-09 10:07:36,588 | INFO | Request: GET https://api.github.com/user 
+2026-07-09 10:07:37,275 | INFO | Response of https://api.github.com/user: 200
+2026-07-09 10:07:37,286 | INFO | Request: GET https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/ref/heads/main 
+2026-07-09 10:07:37,806 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/ref/heads/main: 200
+2026-07-09 10:07:37,812 | INFO | Execution time of test_get_last_commit is: 0.53 seconds
+2026-07-09 10:07:37,816 | INFO | Request: POST https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs 
+2026-07-09 10:07:38,624 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs: 201
+2026-07-09 10:07:38,640 | INFO | Execution time of test_create_branch is: 0.82 seconds
+2026-07-09 10:07:38,645 | INFO | Request: GET https://api.github.com/repos/Narsimha91/pytest-api-demo-1/branches/feature-login 
+2026-07-09 10:07:39,089 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/branches/feature-login: 200
+2026-07-09 10:07:39,094 | INFO | Execution time of test_get_branch is: 0.45 seconds
+2026-07-09 10:07:39,097 | INFO | Request: DELETE https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs/heads/feature-login 
+2026-07-09 10:07:39,732 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs/heads/feature-login: 204
+2026-07-09 10:07:39,736 | INFO | Request: GET https://api.github.com/repos/Narsimha91/pytest-api-demo-1/branches/feature-login 
+2026-07-09 10:07:40,173 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/branches/feature-login: 200
+2026-07-09 10:07:40,182 | INFO | Execution time of test_remove_branch is: 1.09 seconds
+2026-07-09 10:08:22,610 | INFO | Request: GET https://api.github.com/user 
+2026-07-09 10:08:23,048 | INFO | Response of https://api.github.com/user: 200
+2026-07-09 10:08:23,052 | INFO | Request: DELETE https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs/heads/feature-login 
+2026-07-09 10:08:23,561 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs/heads/feature-login: 422
+2026-07-09 10:08:23,727 | INFO | Execution time of test_remove_branch is: 0.68 seconds
+2026-07-09 10:17:04,213 | INFO | Request: GET https://api.github.com/user 
+2026-07-09 10:17:04,782 | INFO | Response of https://api.github.com/user: 200
+2026-07-09 10:17:04,786 | INFO | Request: GET https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/ref/heads/main 
+2026-07-09 10:17:05,243 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/ref/heads/main: 200
+2026-07-09 10:17:05,249 | INFO | Execution time of test_get_last_commit is: 0.46 seconds
+2026-07-09 10:17:05,252 | INFO | Request: POST https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs 
+2026-07-09 10:17:06,110 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs: 201
+2026-07-09 10:17:06,121 | INFO | Execution time of test_create_branch is: 0.87 seconds
+2026-07-09 10:17:06,127 | INFO | Request: GET https://api.github.com/repos/Narsimha91/pytest-api-demo-1/branches/feature-login 
+2026-07-09 10:17:06,624 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/branches/feature-login: 200
+2026-07-09 10:17:06,629 | INFO | Execution time of test_get_branch is: 0.50 seconds
+2026-07-09 10:17:06,632 | INFO | Request: DELETE https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs/heads/feature-login 
+2026-07-09 10:17:07,363 | INFO | Response of https://api.github.com/repos/Narsimha91/pytest-api-demo-1/git/refs/heads/feature-login: 204
+2026-07-09 10:17:07,369 | INFO | Execution time of test_remove_branch is: 0.74 seconds

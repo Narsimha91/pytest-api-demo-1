@@ -14,7 +14,13 @@ END_POINTS = {
         "repo"  :  r"/repos/{owner}/{repo}",
         "issues":  r"/repos/{owner}/{repo}/issues",
         "pull"  :  r"/repos/{owner}/{repo}/pulls",
-        "actions": r"/repos/{owner}/{repo}/actions/workflows"
+        "actions": r"/repos/{owner}/{repo}/actions/workflows",
+        "get_cmt": r"/repos/{owner}/{repo}/git/ref/heads/main",
+        "refs":    r"/repos/{owner}/{repo}/git/refs",
+        "branches": r"/repos/{owner}/{repo}/branches",
+        "branch":   r"/repos/{owner}/{repo}/branches/{branch}",
+        "rm_branch": r"/repos/{owner}/{repo}/git/refs/heads/{branch}"
+    
     }
 
 # /repos/{owner}/{repo}/branches
