@@ -1,124 +1,57 @@
 import pytest
-from core.config import END_POINTS
+
+# @pytest.mark.xfail(sys.platform == "win32", reason="Runs only on Windows")
+# @pytest.mark.skip("Repo Already Created")
+# @pytest.mark.skipif(sys.platform == "win32", reason="Runs only on Windows")
+@pytest.mark.create_repo
+@pytest.mark.fun_e2e_test
+def test_create_repo(create_repo):
+    if create_repo.status_code == 422:
+        # pytest.fail(reason="Repository Exists..")
+        pytest.skip(reason="Repository Exists..")
+    assert create_repo.status_code == 201
 
 
-SHA = ''
+@pytest.mark.read_repo
+@pytest.mark.fun_e2e_test
+def test_get_repo(github_repo, test_config):
+    response = github_repo.get_repo(
+        test_config.END_POINTS['username'],
+        test_config.REPOSITORY
+        )
+    assert response.status_code == 200
 
 
-def test_create_repo(github_user, api_request):
-    
-    pytest.skip("Repo already created")
-
+@pytest.mark.update_repo
+@pytest.mark.fun_e2e_test
+def test_update_repo(github_repo, test_config, github_user):
     payload = {
-        "name": "pytest-api-demo-2",
-        "description": "Create an repo using pytest automation.",
-        "private": False
+        "name": test_config.REPOSITORY,
+        "description": "Updated repository through API"
     }
-   
-    response = api_request('POST', END_POINTS["repos"], json=payload)
-    assert response.status_code == 201
-
-
-def test_read_repo(github_user, api_request):
-    endpoint = END_POINTS["repo"].format(owner=github_user, repo="pytest-api-demo-2")
-
-    response = api_request("GET", endpoint)
+    response = github_repo.update_repo(
+        github_user,
+        test_config.REPOSITORY,
+        payload
+    )
     assert response.status_code == 200
 
 
-def test_update_repo(github_user, api_request):
+@pytest.mark.remove_repo
+@pytest.mark.fun_e2e_test
+def test_remove_repo(github_repo, github_user, test_config, get_options):
+    if get_options['env'] == "production":
+        pytest.skip("Repository cant be deleted in Production server")
 
-    payload = {  
-        "name": "pytest-api-demo-2",
-        "description": "updated an repo using pytest automation.",
-        "private": False
-    }
-    endpoint = END_POINTS["repo"].format(owner=github_user, repo="pytest-api-demo-2")
+    response = github_repo.remove_repo(
+        github_user,
+        test_config.REPOSITORY
+    )
 
-    response = api_request("PATCH", endpoint, json=payload)
-    assert response.status_code == 200
-
-
-def test_delete_repo(github_user, api_request):
-
-    pytest.skip("skipping repo deletion")
-
-    endpoint = END_POINTS["repo"].format(owner=github_user, repo="pytest-api-demo-2")
-
-    response = api_request("DELETE", endpoint)
     assert response.status_code == 204
 
 
 
-    # GET /repos/{owner}/{repo}/git/ref/heads/main
-
-@pytest.mark.get_branch
-def test_get_last_commit(github_user, api_request):
-    endpoint = END_POINTS["get_cmt"].format(owner=github_user, repo="pytest-api-demo-1")
-
-    response = api_request("GET", endpoint)
-    assert response.status_code == 200
-    global SHA
-    SHA = response.json()['object']['sha']
-    print("SHA:          ----------      ", SHA)
-
-
-
-@pytest.mark.get_branch
-def test_create_branch(github_user, api_request):
-
-   
-    global SHA
-    payload = {
-    "ref": "refs/heads/feature-login",
-    "sha": SHA
-    }
-    endpoint = END_POINTS["refs"].format(owner=github_user, repo="pytest-api-demo-1")
-
-    response = api_request("POST", endpoint, json=payload)
-
-    print(response.json())
-
-    if response.status_code == 422:
-        pytest.skip("Skipping due to branch is already exists")
-    assert response.status_code == 201
-    print(response.json())
-
-
-@pytest.mark.get_branch
-def test_get_branch(github_user, api_request):
-    # GET /repos/{owner}/{repo}/branches    feature-login 
-    # GET /repos/{owner}/{repo}/branches/{branch}
-    
-    endpoint = END_POINTS["branch"].format(owner=github_user, repo="pytest-api-demo-1",
-                                              branch="feature-login")
-
-    response = api_request("GET", endpoint)
-    assert response.status_code == 200
-    print("*"*20)
-    # print(response.json()[0].get("name", "Not Fount"))
-    print(response.json().get("name", "Not Fount"))
-    print("*"*20)
-
-
-
-@pytest.mark.get_branch
-def test_remove_branch(github_user, api_request):
-    
-    endpoint = END_POINTS["rm_branch"].format(owner=github_user, repo="pytest-api-demo-1",
-                                              branch="feature-login")
-
-    response = api_request("DELETE", endpoint)
-    assert response.status_code == 204
-    print("-----------------  "*20)
-    # print(response.json()[0].get("name", "Not Fount"))
-    # print(response.content)
-    # test_get_branch(github_user, api_request)
-
-    print("*"*20)
-
-
-# DELETE /repos/{owner}/{repo}/git/refs/heads/feature-login
 
 
 
@@ -128,33 +61,5 @@ def test_remove_branch(github_user, api_request):
 
 
 
-
-
-
-
-
-
-
-# @pytest.mark.parametrize(
-#     "endpoint, expected",
-#     [
-#         ("/user", 200),
-#         ("/users/Narsimha91", 200),
-#         ("/invalid", 404)
-#     ]
-# )
-# def test_endpoints(api_request, endpoint, expected):
-
-#     response = api_request("GET", endpoint)
-#     assert response.status_code == expected
-
-
-
-# def test_get_user(api_request, github_user):
-    # print(github_user)
-
-    # response = api_request("GET", f"/users/{github_user}")
-
-    # assert response.status_code == 200 or github_user == "invalid_user"
 
 

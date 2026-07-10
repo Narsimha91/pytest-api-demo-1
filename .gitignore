@@ -1,4 +1,6 @@
 __pycache__/
 tests/__pycache__/
 .git/
-.pytest_cache 
+.pytest_cache
+.idea
+.venv
